@@ -13,6 +13,6 @@ after_success:
  
 env:
   global:
-    - GH_ACCOUNT=Holzschneider
-    - GH_REPOSITORY=Riot
+    - GH_ACCOUNT=dualuse
+    - GH_REPOSITORY=maven
     - secure: "YARYD9iJ+O2SaCybH56VXEhQRdzMLnXcU0y6hDdR4WPsDGuubElaop6k57le2/0fBi6bZ2whZpN6X+avRvvvr57EYQ6mEJupbfXJtTAKIJ0ujiRmUcnKO6XZaylNGjLKi285g1Pi9EXSUfA0wwgk6DOz23jABNJi8yUAE3iRG//6xWhNfGEzHWOl80lRY7UL5tlWzMhLhdHBPsLO7E8rnfnBG/hqOzziR9euqyuL3qTOEG0efeCf8fQfoPg/Nf9AIZsgbPwbbT6GdJz8e8pQdO2d4oBxLXrzp3kFRzCE3UhYdbvDPw/ybASzZ8f3rnEpRTNDrnDpT9QTuIW0pfPbnmIjF+yLhIlUjeLBrTzvePi2PpEneI0BviG2smBR66K34C48TLmg3b5Te1GolGz+BUhjXywFc51Xv/W0gIwJzlCdHqw/pI6VPHXjhfRYVMm0BKPwGdP6xpFj+m78zvS2wGOFoT+xL2FkjrU9rBSxqAxitMKx3DZfi57WV2pbtsfOnwsicrGqXiD3sZdeOLCZ6Hllg5Iyy1rry5u8DAvZMb3ZSj9xq92ZVrbMoSVbFPQHEtBmoiEcprKAA+PqGqSE/8aruNBMLxGHWzP7Br0g0qFpOrBkor5SYai3kQKVuILy4ln83UUlRu64UbvTnFydD2RM7/XnZWSuw12iUYcgm4Q="
