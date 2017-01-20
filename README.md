@@ -7,7 +7,7 @@ A collection of uncommon Input- / OutputStream implementations along with Helper
 Release
 -------
 
-The base release 1.0.x corresponds to the unmodified collections implementation, as they've been extracted from legacy projects.
+The base release 1.x.y corresponds to the unmodified collections implementation, as they've been extracted from legacy projects.
 
 
 Releases are deployed automatically to the deploy branch of this github repostory. 
