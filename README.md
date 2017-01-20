@@ -1,5 +1,5 @@
 # Riot
-Retro-style IO Toolkit
+**R**etro-style **IO** **T**oolkit
 
 A collection of uncommon Input- / OutputStream implementations along with Helper Classes for File/Folder/Stream & String handling.
 
@@ -16,9 +16,9 @@ To add a dependency on *Riot* using maven, modify your *repositories* section to
 	<repositories>
 	 ...
 	  <repository>
-	    <id>Riot-Repository</id>
-	    <name>Riot'S Git-based repo</name>
-	    <url>https://raw.githubusercontent.com/Holzschneider/Riot/deploy/</url>
+	    <id>dualuse-Repository</id>
+	    <name>dualuse's Git-based repo</name>
+	    <url>https://dualuse.github.io/maven</url>
 	  </repository>
 	...
 	</repositories>
@@ -30,7 +30,7 @@ and modify your *dependencies* section to include the *Riot* dependency
 	  	<dependency>
 	  		<groupId>de.dualuse</groupId>
 	  		<artifactId>Riot</artifactId>
-	  		<version>LATEST</version>
+	  		<version>[1,)</version>
 	  	</dependency>
 	  ...
 	  </dependencies>
@@ -40,12 +40,12 @@ To add the repository and the dependency using gradle refer to this
 
 	repositories {
 	    maven {
-	        url "https://raw.githubusercontent.com/Holzschneider/Riot/deploy/"
+	        url "https://dualuse.github.io/maven"
 	    }
 	}
 
 and this
 
 	dependencies {
-	  compile 'de.dualuse:Fancy:1.0.+'
+	  compile 'de.dualuse:Riot:1.+'
 	}
